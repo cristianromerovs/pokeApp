@@ -55,3 +55,5 @@ function generatePokemon() {
 
     getPokemonAxios(randomNumber);
 }
+
+window.onload = generatePokemon;
